@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cocktail API</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@calendarjs/ce/dist/style.min.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Material+Icons" />
 </head>
 <body>
     <header>
@@ -34,11 +36,17 @@
 
             <div id="calendarContainer">
                 <button type="button" id="dateSelector">Datum wählen</button>
-                <div>
-                    <input type="date" id="date" name="date">
-                </div>
+                <!--<input type="date" id="date" name="date">-->
+                <div id='date'></div>
             </div>
 
+            <div id="sonnenaufgang">
+                <p>Sunrise: 6:30</p>
+            </div>
+
+            <div id="sonnenuntergang">
+                <p>Sunset: 20:30</p>
+            </div>
         </div>
 
     </main>
@@ -46,6 +54,8 @@
         <p>This is the footer of the page.</p>
 
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/lemonadejs/dist/lemonade.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@calendarjs/ce/dist/index.min.js"></script>
     <script src="js/script.js" type="module"></script>
 </body>
 </html>
