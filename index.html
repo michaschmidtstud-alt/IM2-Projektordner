@@ -13,7 +13,33 @@
     </header>
     <main>
         <h2>Main Content</h2>
-        <p>This is the main content of the page.</p>
+
+        <div id="menu">
+            <select id="huette" name="huette" autocomplete="off">
+            <option value="" selected disabled>Hütte auswählen</option>
+            <option value="balmhornhuette">Doldenhornhütte</option>
+            <option value="doldenhornhuette">Doldenhornhütte</option>
+            <option value="dossenhuette">Dossenhütte</option>
+            <option value="fruendenhuette">Fründenhütte</option>
+            <option value="gaulihuette">Gaulihütte</option>
+            <option value="geltenhuette">Geltenhütte</option>
+            <option value="glecksteinhuette">Glecksteinhütte</option>
+            <option value="gspaltenhornhuette">Gspaltenhornhütte</option>
+            <option value="hohganthuette">Hohganthütte</option>
+            <option value="oberaletschhuette">Oberaletschhütte</option>
+            <option value="sustlihuette">Sustlihütte</option>
+            <option value="wildhornhuette">Wildhornhütte</option>
+            <option value="wildstrubelhuette">Wildstrubelhütte</option>
+            </select>
+
+            <div id="calendarContainer">
+                <button type="button" id="dateSelector">Datum wählen</button>
+                <div>
+                    <input type="date" id="date" name="date">
+                </div>
+            </div>
+
+        </div>
 
     </main>
     <footer>
