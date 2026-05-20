@@ -304,8 +304,8 @@ main h2 {
   transition: background 0.15s !important;
 }
 
-.lm-calendar-content{
-    overflow: hidden !important;
+.lm-calendar-content {
+  overflow: hidden !important;
 }
 
 .lm-calendar-content div:hover {
@@ -421,7 +421,7 @@ main h2 {
   border-radius: var(--radius-panel);
   box-shadow: var(--shadow-panel);
   padding: 2.5rem 2rem;
-  display: flex;
+  display: none;
   flex-direction: column;
   align-items: center;
   gap: 1rem;

@@ -379,6 +379,14 @@ huette.addEventListener('click', () => {
 dateSelector.hidden = true;
 date.hidden = true;
 
+function showHutInfo() {
+    document.querySelectorAll('.huettenInfo').forEach(el => {
+        el.style.display = "flex";
+    });
+}
+
+
+
 //Bei Auswahl der Hütte oder bei Klicken auf "Datum wählen" wird der Kalender geöffnet
 huette.addEventListener('change', () => {
     date.hidden = !date.hidden;
@@ -426,6 +434,8 @@ selectedDate.addEventListener('click', async(event) => {
     //Hütte auswählen
     const selectedHut = huette.value;
 
+    
+
     //Wetterdaten laden
     const data = await loadWeatherData(selectedHut);
     const index = data.daily.time.indexOf(selectedFormattedDate);
@@ -448,6 +458,7 @@ selectedDate.addEventListener('click', async(event) => {
         
     date.hidden = true;
     dateSelector.hidden = true;
+    showHutInfo();
     }
 })
 
