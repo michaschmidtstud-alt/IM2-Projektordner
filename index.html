@@ -14,9 +14,23 @@
 
     </header>
     <main>
+
+         <!-- HERO: mountain image + floating sun illustrations -->
+    <div class="hero">
+      <!-- Left sun illustration — replace src with your actual sun image -->
+      <img class="sun sun-left"  src="images/sun_02.png"  alt="Sonne">
+      <!-- Right sun illustration -->
+      <img class="sun sun-right" src="images/sun_02.png" alt="Sonne">
+
+      <div class="hero-image-wrap">
+        <!-- Replace src with your actual mountain image -->
+        <img class="hero-mountain" src="images/Eiger-Mönch-Jungfrau_GPT.png" alt="Bergpanorama">
+      </div>
+    </div>
+
         <h2>Main Content</h2>
 
-        <div id="menu">
+        <div class="hut-col" id="menu">
             <select id="huette" name="huette" autocomplete="off">
             <option value="" selected disabled>Hütte auswählen</option>
             <option value="balmhornhuette">Balmhornhütte</option>
@@ -48,6 +62,164 @@
                 <p id="sunsetText">Sunset: 20:30</p>
             </div>
         </div>
+
+         <div class="huettenInfo" id="huettenInfoBalmhornhuette" hidden>
+      <h3>Balmhornhütte SAC</h3>
+      <p>Das gemütliche, authentische Sommerhüttli erinnert an frühere Zeiten. Fast senkrecht über dem Kandersteger Gasteretal, auf der Talschulter am Fusse des Balmhorns gelegen, umgeben von grünen Bergwiesen, begeistert das kleine Bijou vor allem wegen seiner Lage auf einer Aussichtskanzel. 
+        Alpinwanderer besteigen anderntags gerne den Gasterespitz am Wildelsigegrat mit überwältigender Sicht über den Kanderfirn bis hin zu Eiger, Mönch und Jungfrau.</p>
+      <a href="https://www.sac-cas.ch/de/huetten-und-touren/sac-tourenportal/balmhornhuette-sac-2147000024/" class="mehr-btn">Mehr Informationen</a>
+      <p class="meta">
+        offen: Juni–Oktober<br>
+        Schlafplätze: 20<br>
+        Aufstieg: 1:30–2h von Kandersteg
+      </p>
+    </div>
+
+    <div class="huettenInfo" id="huettenInfoDoldenhornhuette" hidden>
+      <h3>Doldenhornhütte SAC</h3>
+      <p>Die Doldenhornhütte ist eine familienfreundliche SAC-Hütte oberhalb von Kandersteg. 
+        Hier übernachtest du auf 1915 Metern inmitten der Bergwelt – mit gemütlicher Atmosphäre und regionaler Verpflegung.</p>
+      <a href="https://www.doldenhornhuette.ch/" class="mehr-btn">Mehr Informationen</a>
+      <p class="meta">
+        offen: Juni–September<br>
+        Schlafplätze: 42<br>
+        Aufstieg: 2-2:30h von Kandersteg
+      </p>
+    </div>
+    
+    <div class="huettenInfo" id="huettenInfoDossenhuette" hidden>
+      <h3>Dossenhütte SAC</h3>
+      <p>«Zwischen Himmel und Erde» wird die Hütte südlich der Engelhörner gerne genannt. 
+        Tatsächlich liegt sie auf dem schmalen Tossengrat (neue Schreibweise auf der Karte) zwischen dem Rosenlaui und dem Ürbachtal – 
+        mit Sonnenauf- und -untergängen der Extraklasse. Für geübte Wanderer im Sommer (kein Winterraum) ein spannendes Tourenziel, landschaftlich eindrückliche Hüttenwege teils mit Drahtseilen und Leitern gesichert. Für Skitourengänger gibt es das Rosenlauibiwak.</p>
+      <a href="https://www.sac-cas.ch/de/huetten-und-touren/sac-tourenportal/dossenhuette-sac-2147000082/" class="mehr-btn">Mehr Informationen</a>
+      <p class="meta">
+        offen: Juli-September<br>
+        Schlafplätze: 51<br>
+        Aufstieg: 4h von Rosenlaui
+      </p>
+    </div>
+
+    <div class="huettenInfo" id="huettenInfoFruendenhuette" hidden>
+      <h3>Fründenhütte SAC</h3>
+      <p>Tausend Meter direkt über dem Oeschinensee. Die Hütte für erfahrene, trittsichere Bergwanderer und Hochalpinisten ist umgeben von Fels und Eis. Einst vom Fründengletscher umflossen, reicht seine Zuge heute bis knapp hinter die Hütte und bildet eine reizvolle Landschaft mit kleinen Moränenseen. Teils exponierte Stellen auf dem direkten Hüttenweg. 
+        Die Fründschnuer hinten am Oeschinensee ist besonders attraktiv für wirklich Trittsichere und Schwindelfreie.</p>
+      <a href="https://www.sac-cas.ch/de/huetten-und-touren/sac-tourenportal/fruendenhuette-sac-2147000102/" class="mehr-btn">Mehr Informationen</a>
+      <p class="meta">
+        offen: Juli-September<br>
+        Schlafplätze: 58<br>
+        Aufstieg: 3:30-4h übere die Untere Fründschnuer
+      </p>
+    </div>
+
+    <div class="huettenInfo" id="huettenInfoGaulihuette" hidden>
+      <h3>Gaulihütte SAC</h3>
+      <p>Im hinteren Urbachtal am SE-Fuss des Hangendgletscherhorns gelegen. Eigentum der SAC-Sektion Bern, 65 Plätze. Hüttenbewartung während der Frühlings- und Sommersaison. Ausgangspunkt für Hochtouren und alpine Skitouren im östlichen Berner Oberland. Klettern an griffigem Gneis oder der Blick auf den Gauligletscher und die Seen im Vorfeld sind Höhepunkte um diese Hütte. Speziell für Kinder eingerichtete Felsen, der Ausflug zum Gletscher, 
+        Baden an den Chipfenseeli und organisierte Kinderkletterlager begeistern Familien. Spezielle «Dakota-Touren» zum Absturzort des amerikanischen Flugzeuges.</p>
+      <a href="https://www.sac-cas.ch/de/huetten-und-touren/sac-tourenportal/gaulihuette-sac-2147000111/" class="mehr-btn">Mehr Informationen</a>
+      <p class="meta">
+        offen: April-September<br>
+        Schlafplätze: 65<br>
+        Aufstieg: 4:30h aus dem Urbachtal
+      </p>
+    </div>
+
+    <div class="huettenInfo" id="huettenInfoGeltenhuette" hidden>
+      <h3>Geltenhütte SAC</h3>
+      <p>Vom idyllischen Lauenensee an wilden Schluchten und dem donnernden Geltenschuss vorbei, zuletzt hinter dem kleinen Wasserfall durch – der Zustieg zur Wander- und Bergsteigerhütte am Fusse des Wildhorns ist allein schon ein eindrückliches Bergerlebnis. Die Unterkunft mit grosser Gaststube und abgetrennten Schlafplätzen eignet sich für Vereins- und Schulreisen sowie für Familien. 
+        Ein wunderschöner Rundweg führt durch das Furggental und das Rottal zurück zur Hütte, Dauer ca. 2h. Im Frühling vielfältige Ski- und Schneeschuhtouren.</p>
+      <a href="https://www.sac-cas.ch/de/huetten-und-touren/sac-tourenportal/geltenhuette-sac-2147000113/" class="mehr-btn">Mehr Informationen</a>
+      <p class="meta">
+        offen: März und April, Juli-September<br>
+        Schlafplätze: 70<br>
+        Aufstieg: 3:15h von Lauenen 
+      </p>
+    </div>
+
+    <div class="huettenInfo" id="huettenInfoGlecksteinhuette" hidden>
+      <h3>Glecksteinhütte SAC</h3>
+      <p>Ihr Name stammt von «Gläck» (Viehsalz), das die Hirten den Schafen im Sommer zum Stein brachten. Die SAC-Hütte zum Grindelwalder Wetterhorn, einst als Hotel Gleckstein bekannt, ist heute beliebt bei Alpinisten für Besteigungen und Gletschertouren, als kleiner Seminarort, aber auch bei Bergwanderern, die imposante Gebirgspanoramen suchen und im Aufstieg «Tucki», 
+        dem Chef der Steinbockkolonie, begegnen oder die Ruinen des legendären Wetterhornaufzuges bestaunen.</p>
+      <a href="https://www.sac-cas.ch/de/huetten-und-touren/sac-tourenportal/glecksteinhuette-sac-2147000118/" class="mehr-btn">Mehr Informationen</a>
+      <p class="meta">
+        offen: Juli-September<br>
+        Schlafplätze: 70<br>
+        Aufstieg: 2:15-2:45h von Grindelwald
+      </p>
+    </div>
+  
+
+  <div class="huettenInfo" id="huettenInfoGpaltenhornhuette" hidden>
+      <h3>Gspaltenhornhütte SAC</h3>
+      <p>Die Zacken und Türme des Gspaltenhorns, Kamel und Roti Zend sind weitherum bekannt. Am Fusse dieser imposanten Felsen, zuhinterst im Kiental, auf einem schmalen Felsvorsprung hoch über dem Gamchigletscher liegt die kürzlich modernisierte Alpin- und Sommerhütte. Neben Besteigungen sind Übergange zu benachbarten Hütten und Tälern (Sefinenfurgga, Hohtürli, 
+        Gamchilücke) beliebt. Die Hütte ist eine der 18 bewarteten SAC-Unterkünfte im Unesco-Welterbe.</p>
+      <a href="https://www.sac-cas.ch/de/huetten-und-touren/sac-tourenportal/gspaltenhornhuette-sac-2147000127/" class="mehr-btn">Mehr Informationen</a>
+      <p class="meta">
+        offen: Juli-September<br>
+        Schlafplätze: 60<br>
+        Aufstieg: 3:30h von der Griesalp über Steineberg
+      </p>
+    </div>
+
+    <div class="huettenInfo" id="huettenInfoHohganthuette" hidden>
+      <h3>Hohganthütte SAC</h3>
+      <p>Die Hohganthütte ist im Besitz der SAC-Sektion Emmental. Knapp unterhalb der Waldgrenze steht diese ausgesprochen gemütliche Hütte. Sie ist für Selbstversorgung eingerichtet und nicht bewartet. Die Hütte ist grundsätzlich geschlossen und eine Reservation ist notwendig.
+         Nach der Reservation erhält man einen Zugangscode für das Türschloss. Alle weiteren Informationen auf der Website.</p>
+      <a href="https://www.sac-cas.ch/de/huetten-und-touren/sac-tourenportal/hohganthuette-2147000133/" class="mehr-btn">Mehr Informationen</a>
+      <p class="meta">
+        offen: Ganzen Jahr offen, nicht bewartet<br>
+        Schlafplätze: 24<br>
+        Aufstieg: 3:30h von Kemmeribodenbad oder 3:30h von Habkern
+      </p>
+    </div>
+
+    <div class="huettenInfo" id="huettenInfoOberaletschhuette" hidden>
+      <h3>Oberaletschhuette SAC</h3>
+      <p>Massives Steinhaus am Fusse der Fusshörner, mitten im alpinen Gletschergebiet von Aletschhorn, Schinhorn und Nesthorn. Die Hütte ist Ausgangspunkt für vielfältige Ski-, Berg- und Klettertouren. Wegen des Gletscherrückgangs wurde der direkte Weg über den Oberaletschgletscher immer schwieriger und für viele Leute unbegehbar. 
+        Der neue Panoramaweg via Lochegga gilt heute als touristische Attraktion im Unesco-Welterbegebiet.</p>
+      <a href="https://www.sac-cas.ch/de/huetten-und-touren/sac-tourenportal/oberaletschhuette-sac-2147000193/" class="mehr-btn">Mehr Informationen</a>
+      <p class="meta">
+        offen: April und Juli-September<br>
+        Schlafplätze: 58<br>
+        Aufstieg: 4:30h von der Belalp
+      </p>
+    </div>
+
+    <div class="huettenInfo" id="huettenInfoSustlihuette" hidden>
+      <h3>Sustlihütte SAC</h3>
+      <p>Auf sonniger, grüner Geländeterrasse hoch über der Sustenpassstrasse gelegen – und doch mit kurzem Zugang. Stützpunkt für Kletterer und Berggänger, vor allem aber auch für Familien mit Kindern sowie wegen der Umgebung für Kurse und Ausbildung. Ein Eldorado für Kletter- und Kraxelpartien aller Längen und Schwierigkeitsgrade. 
+        Bereits der direkte (nicht einzige) Aufstieg über den Leiterliweg zur Hütte findet bei Kindern Anklang.</p>
+      <a href="https://www.sac-cas.ch/de/huetten-und-touren/sac-tourenportal/sustlihuette-sac-2147000262/" class="mehr-btn">Mehr Informationen</a>
+      <p class="meta">
+        offen: März und April, Juni-Oktober<br>
+        Schlafplätze: 67<br>
+        Aufstieg: 1h vom Sustenbrüggli
+      </p>
+    </div>
+
+    <div class="huettenInfo" id="huettenInfoWildhornhuette" hidden>
+      <h3>Wildhornhütte SAC</h3>
+      <p>Früher vor allem für die Besteigung des Wildhorns benutzt, ist die geräumige Hütte über dem Iffigsee heute im Sommer oft Stützpunkt für Familien, Vereine, Schulklassen, Kurse und Etappenort für Wanderungen zwischen Lenk, dem Lauenental und dem Rawilgebiet sowie auf der «Tour du Wildhorn». 
+        Im Winter treffen sich Schneeschuhläufer und Skitourengänger, so auf der Haute Route Diablerets–Gemmi–Grimsel.</p>
+      <a href="https://www.sac-cas.ch/de/huetten-und-touren/sac-tourenportal/wildhornhuette-sac-2147000293/" class="mehr-btn">Mehr Informationen</a>
+      <p class="meta">
+        offen: März und April, Juli-September<br>
+        Schlafplätze: 79<br>
+        Aufstieg: 5h ab Lenk über Iffigenalp 
+      </p>
+    </div>
+
+    <div class="huettenInfo" id="huettenInfoWildstrubelhuette" hidden>
+      <h3>Wildstrubelhütte SAC</h3>
+      <p>Ziel für Bergwanderer, Skitourengeher und sehr geübte Mountainbiker. An der Kantonsgrenze Bern–Wallis unweit der imposanten Gletscherebene Plaine Morte bietet die Hütte der beiden Sektionen SAC Wildhorn und SAC Kaiseregg auch einen Boulderraum und Hundeboxen. Eindrücklich sind die beiden ursprünglichen Essräume mit Holztischen und Holztäfer. Über die urtümliche Landschaft des Rawils blickt man hinüber zur Gletscherwelt des Wildhorns. 
+        </p>
+      <a href="https://www.sac-cas.ch/de/huetten-und-touren/sac-tourenportal/wildstrubelhuette-sac-2147000294/" class="mehr-btn">Mehr Informationen</a>
+      <p class="meta">
+        offen: März und April, Juli-September<br>
+        Schlafplätze: 68<br>
+        Aufstieg: 6h von Lenk über Färiche
+      </p>
+    </div>
 
     </main>
     <footer>
