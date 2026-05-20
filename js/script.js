@@ -83,7 +83,8 @@ const { Calendar } = calendarjs;
 
 Calendar(document.querySelector('#date'), {
     type: 'inline',
-    value: new Date()
+    value: new Date(),
+    wheel: false
 });
 
 console.log(calendarjs)
@@ -352,13 +353,19 @@ navigationButtons.forEach(button => {
         }, 50);
 
     });
-
-});
+})
 
 //Beim Neuladen der Seite wird die Auswahl zurückgesetzt
 window.addEventListener('load', () => {
     huette.selectedIndex = 0;
 });
+
+//Scrollen im Kalender deaktivieren
+const calendar = document.querySelector('#date');
+
+calendar.addEventListener('wheel', (e) => {
+    e.preventDefault();
+}, { passive: false });
 
 /* window.addEventListener('load', () => {
     date.value = ""
@@ -371,10 +378,6 @@ huette.addEventListener('click', () => {
 //Kalender ist vorerst versteckt
 dateSelector.hidden = true;
 date.hidden = true;
-
-//Uhrzeiten sind vorerst versteckt
-sonnenaufgang.hidden = true;
-sonnenuntergang.hidden = true;
 
 //Bei Auswahl der Hütte oder bei Klicken auf "Datum wählen" wird der Kalender geöffnet
 huette.addEventListener('change', () => {

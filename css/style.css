@@ -304,6 +304,10 @@ main h2 {
   transition: background 0.15s !important;
 }
 
+.lm-calendar-content{
+    overflow: hidden !important;
+}
+
 .lm-calendar-content div:hover {
   background: var(--panel-bg) !important;
 }
