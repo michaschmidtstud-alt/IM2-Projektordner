@@ -293,7 +293,7 @@ main h2 {
   letter-spacing: 0.04em !important;
 }
 
-.lm-calendar-content div {
+/* .lm-calendar-content div {
   width: 32px !important;
   height: 32px !important;
   border-radius: 6px !important;
@@ -302,7 +302,7 @@ main h2 {
   justify-content: center !important;
   cursor: pointer !important;
   transition: background 0.15s !important;
-}
+} */
 
 .lm-calendar-content {
   overflow: hidden !important;
@@ -413,7 +413,11 @@ main h2 {
 /* ============================================
    HUT INFO SECTION (bottom card from design)
    ============================================ */
-.huettenInfo {
+.huettenInfo[hidden] {
+  display: none !important;
+}
+
+   .huettenInfo {
   width: 100%;
   margin-top: 2rem;
   background: var(--panel-bg);
@@ -421,6 +425,7 @@ main h2 {
   border-radius: var(--radius-panel);
   box-shadow: var(--shadow-panel);
   padding: 2.5rem 2rem;
+  display: flex;
   flex-direction: column;
   align-items: center;
   gap: 1rem;
