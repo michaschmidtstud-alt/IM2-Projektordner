@@ -285,6 +285,7 @@ main h2 {
   border: none !important;
   border-radius: var(--radius-panel) !important;
   padding: 1rem !important;
+  display: flex;
 }
 
 .lm-calendar-header {
