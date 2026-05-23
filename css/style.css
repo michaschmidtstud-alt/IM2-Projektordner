@@ -147,7 +147,8 @@ main h2 {
 /* Sun illustrations — absolutely positioned, overlapping hero edges */
 .sun {
   position: absolute;
-  top: -40px;
+  top: 30px;
+  left: 10000px;
   width: 160px;
   height: 160px;
   object-fit: contain;
@@ -418,7 +419,7 @@ main h2 {
   display: none !important;
 }
 
-   .huettenInfo {
+.huettenInfo {
   width: 100%;
   margin-top: 2rem;
   background: var(--panel-bg);
