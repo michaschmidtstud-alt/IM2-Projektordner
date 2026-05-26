@@ -439,7 +439,8 @@ selectedDate.addEventListener('click', async(event) => {
 
     huette.addEventListener('change', () => {
     console.log(huette.value);
-});
+})
+})
 
 
 
@@ -632,7 +633,6 @@ huette.addEventListener('change', () => {
     dateSelector.hidden = true;
     updateHutInfo(huette.value);
     }
-})
 
 huette.addEventListener('click', () => {
     sonnenaufgang.hidden = true;
