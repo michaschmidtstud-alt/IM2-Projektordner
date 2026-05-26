@@ -142,13 +142,12 @@ main h2 {
   position: relative;
   z-index: 1;
   mix-blend-mode: multiply;
+  z-index: 2;
 }
 
 /* Sun illustrations — absolutely positioned, overlapping hero edges */
 .sun {
   position: absolute;
-  top: 30px;
-  left: 10000px;
   width: 160px;
   height: 160px;
   object-fit: contain;
@@ -157,10 +156,12 @@ main h2 {
 }
 
 .sun-left {
-  left: 50px;
+  left: 407px;
+  top: 5px;
 }
 .sun-right {
-  right: 50px;
+  right: 407px;
+  top: 15px;
 }
 
 /* ============================================
@@ -289,8 +290,8 @@ main h2 {
   display: flex;
 }
 
-@media (max-width: 640px){
-  .lm-calendar{
+@media (max-width: 640px) {
+  .lm-calendar {
     padding: 0rem;
   }
 }
@@ -523,8 +524,8 @@ footer {
   }
 
   .sun {
-    width: 100px;
-    height: 100px;
+    width: 130px;
+    height: 130px;
     top: -10px;
   }
 
