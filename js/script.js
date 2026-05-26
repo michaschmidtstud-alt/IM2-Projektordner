@@ -609,9 +609,58 @@ huette.addEventListener('change', () => {
     
 
     //Wetterdaten laden
-    const data = await loadWeatherData(selectedHut);
-    const index = data.daily.time.indexOf(selectedFormattedDate);
-    console.log(index);
+    // Wetterdaten laden
+const data = await loadWeatherData(selectedHut);
+
+// Fehler abfangen
+if (!data || !data.daily) {
+
+    huettenInfo.hidden = false;
+
+    huettenInfo.innerHTML = `
+        <p>Daten konnten nicht geladen werden.</p>
+    `;
+
+    return;
+}
+
+const index = data.daily.time.indexOf(selectedFormattedDate);
+
+console.log(index);
+
+if (index !== -1) {
+
+    const sunrise = data.daily.sunrise[index];
+    const sunset = data.daily.sunset[index];
+
+    // Nur Uhrzeit anzeigen
+    const sunriseTime = sunrise.split('T')[1];
+    const sunsetTime = sunset.split('T')[1];
+
+    sunriseText.textContent = `Sunrise: ${sunriseTime}`;
+    sunsetText.textContent = `Sunset: ${sunsetTime}`;
+
+    sonnenaufgang.hidden = false;
+    sonnenuntergang.hidden = false;
+
+    date.hidden = true;
+    dateSelector.hidden = true;
+
+    updateHutInfo(huette.value);
+
+} else {
+
+    huettenInfo.hidden = false;
+
+    huettenInfo.innerHTML = `
+        <p>Daten konnten nicht geladen werden.</p>
+    `;
+
+    date.hidden = true;
+    dateSelector.hidden = true;
+
+    return;
+}
 
     if (index !== -1) {
 

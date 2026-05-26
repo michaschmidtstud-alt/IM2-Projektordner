@@ -331,7 +331,7 @@ main h2 {
   border-top: 1px solid var(--panel-border) !important;
   padding-top: 0.75rem !important;
   margin-top: 0.75rem !important;
-  display: flex !important;
+  display: none !important;
   gap: 0.5rem !important;
   justify-content: flex-end !important;
 }
