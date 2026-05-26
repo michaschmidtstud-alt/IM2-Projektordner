@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@calendarjs/ce/dist/style.min.css" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Material+Icons" />
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.12.2/lottie.min.js"></script> -->
+    <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.js"></script>
 </head>
 <body>
     <header>
@@ -33,15 +33,13 @@
       </div>
     </div>
 <div class="sun sun-left" id="sun-animation"></div>
-    <!-- <script>
-  // lottie.loadAnimation({
-  //   container: document.getElementById('sun-animation'),
-  //   renderer: 'svg',
-  //   loop: true,
-  //   autoplay: true,
-  //   path: '/your-animation.json' // path to your JSON file
-  // });
-</script> -->
+    <dotlottie-player
+  class="sun sun-left"
+  src="/sunrise/sun/image2lottie-animation.lottie"
+  autoplay
+  loop
+>
+</dotlottie-player>
 
         <h2>Main Content</h2>
 
