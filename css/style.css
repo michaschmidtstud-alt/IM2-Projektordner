@@ -147,7 +147,7 @@ main h2 {
 
 /* Sun illustrations — absolutely positioned, overlapping hero edges */
 .sun {
-  position: relative;
+  position: absolute;
   width: 160px;
   height: 160px;
   object-fit: contain;
@@ -156,12 +156,13 @@ main h2 {
 }
 
 .sun-left {
-  left: 407px;
-  top: 5px;
+  left: 5%;
+  top: -40px;
 }
+
 .sun-right {
-  right: 407px;
-  top: 15px;
+  right: 5%;
+  top: -20px;
 }
 
 /* ============================================
