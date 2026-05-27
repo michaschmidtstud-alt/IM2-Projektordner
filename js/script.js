@@ -587,7 +587,7 @@ function updateHutInfo(huetteName) {
         huettenInfo.innerHTML = `
             <h3>${selectedHut.name}</h3>
             <p>${selectedHut.beschreibung}</p>
-            <a href="${selectedHut.link}" class="mehr-btn">Mehr Informationen</a>
+            <a href="${selectedHut.link}" class="mehr-btn" target="_blank" rel="noopener noreferrer">Mehr Informationen</a>
             <p class="meta">
                 offen: ${selectedHut.offen}<br>
                 Schlafplätze: ${selectedHut.schlafplaetze}<br>

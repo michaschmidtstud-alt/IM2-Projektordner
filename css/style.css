@@ -147,7 +147,7 @@ main h2 {
 
 /* Sun illustrations — absolutely positioned, overlapping hero edges */
 .sun {
-  position: absolute;
+  position: relative;
   width: 160px;
   height: 160px;
   object-fit: contain;
