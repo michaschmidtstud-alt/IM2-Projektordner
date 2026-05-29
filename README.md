@@ -1,4 +1,3 @@
-# IM2-Projektordner
+# Sonnenauf- und Untergangszeiten auf SAC-Hütten im Berner Oberland
 
-Hallo Welt
-test
+Dieses Projekt entstand im Rahmen eines Studienprojektes der FHGR im Studiengang Multimedia Production.
