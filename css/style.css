@@ -236,6 +236,7 @@ main h2 {
 @media (max-width: 640px) {
   .lm-calendar {
     padding: 0rem;
+    justify-content: center;
   }
 }
 
@@ -439,6 +440,7 @@ footer {
   #menu {
     flex-direction: column;
     gap: 1rem;
+    width: 80%;
   }
 
   .hut-col,
