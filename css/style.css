@@ -416,7 +416,7 @@ footer {
 
   /* Hero */
   .hero-image-wrap {
-    width: 100%;
+    width: 90%;
   }
 
   .hero-mountain {
@@ -426,14 +426,15 @@ footer {
   .sun {
     width: 130px;
     height: 130px;
-    top: -10px;
   }
 
   .sun-left {
-    left: -10px;
+    left: -20px;
+    top: -37px;
   }
   .sun-right {
-    right: -10px;
+    right: -20px;
+    top: -25px;
   }
 
   /* Controls: stack vertically on mobile */
