@@ -11,7 +11,7 @@ Bei den Hütten haben wir uns auf SAC-Hütten im Berner Oberland beschränkt, we
 
 ## Relexion
 
-Jonas und ich haben effizient zusammengearbeitet. Jonas hat sich haupsächlich auf die API-Einbingung fokussiert und Micha auf das Styling.
+Wir haben effizient zusammengearbeitet. Jonas hat sich haupsächlich auf die API-Einbingung fokussiert und Micha auf das Styling.
 
 ### Learnings
 
@@ -19,4 +19,4 @@ Wir hatten zum Teil Schwierigkeiten mit der richtigen Darstellung der Daten, den
 
 ## Fazit
 
-Uns hat dieses Projekt Spass gemacht und wir durfen beide viel neues lernen.
+Uns hat dieses Projekt Spass gemacht und wir durften beide viel neues lernen.
